@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40BEAE171EB4CC8C004C9FCF /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BEAE161EB4CC8C004C9FCF /* GalleryItem.swift */; };
 		DF3188EE1EB5401D009D4769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3188ED1EB5401D009D4769 /* AppDelegate.swift */; };
 		DF3188F01EB5401D009D4769 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3188EF1EB5401D009D4769 /* ViewController.swift */; };
 		DF3188F31EB5401D009D4769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3188F11EB5401D009D4769 /* Main.storyboard */; };
@@ -16,7 +17,6 @@
 		DF31890E1EB5401D009D4769 /* UICollectionView_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF31890D1EB5401D009D4769 /* UICollectionView_3UITests.swift */; };
 		DF31891F1EB54188009D4769 /* GalleryItemCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF31891E1EB54188009D4769 /* GalleryItemCommentView.swift */; };
 		DF3189211EB5422C009D4769 /* GalleryItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3189201EB5422C009D4769 /* GalleryItemCollectionViewCell.swift */; };
-		DF3189231EB54305009D4769 /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3189221EB54305009D4769 /* GalleryItem.swift */; };
 		DF3189251EB54446009D4769 /* items.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF3189241EB54446009D4769 /* items.plist */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40BEAE161EB4CC8C004C9FCF /* GalleryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryItem.swift; sourceTree = "<group>"; };
 		DF3188EA1EB5401D009D4769 /* UICollectionView_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionView_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3188ED1EB5401D009D4769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF3188EF1EB5401D009D4769 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		DF31890F1EB5401D009D4769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF31891E1EB54188009D4769 /* GalleryItemCommentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryItemCommentView.swift; sourceTree = "<group>"; };
 		DF3189201EB5422C009D4769 /* GalleryItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryItemCollectionViewCell.swift; sourceTree = "<group>"; };
-		DF3189221EB54305009D4769 /* GalleryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GalleryItem.swift; path = ../../Models/GalleryItem.swift; sourceTree = "<group>"; };
 		DF3189241EB54446009D4769 /* items.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = items.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,7 +139,7 @@
 		DF31891B1EB540CA009D4769 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				DF3189221EB54305009D4769 /* GalleryItem.swift */,
+				40BEAE161EB4CC8C004C9FCF /* GalleryItem.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3189231EB54305009D4769 /* GalleryItem.swift in Sources */,
+				40BEAE171EB4CC8C004C9FCF /* GalleryItem.swift in Sources */,
 				DF3189211EB5422C009D4769 /* GalleryItemCollectionViewCell.swift in Sources */,
 				DF3188F01EB5401D009D4769 /* ViewController.swift in Sources */,
 				DF3188EE1EB5401D009D4769 /* AppDelegate.swift in Sources */,
@@ -547,6 +547,7 @@
 				DF3189141EB5401D009D4769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF3189151EB5401D009D4769 /* Build configuration list for PBXNativeTarget "UICollectionView_3Tests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +556,7 @@
 				DF3189171EB5401D009D4769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF3189181EB5401D009D4769 /* Build configuration list for PBXNativeTarget "UICollectionView_3UITests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +565,7 @@
 				DF31891A1EB5401D009D4769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
